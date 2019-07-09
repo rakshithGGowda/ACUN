@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alert"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="156dp"
+        android:text="Access Denied, Your age is inapproprite to access this appliction"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:textColor="@android:color/background_dark" />
+
+</AbsoluteLayout>

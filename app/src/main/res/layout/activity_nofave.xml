@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nofave">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="217dp"
+        android:text="No Faces found. Acess          Denied "
+        android:textSize="36dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/tryagain"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="362dp"
+        android:text="Try Again"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+
+</AbsoluteLayout>
